@@ -656,7 +656,7 @@
     name: First Touch to Last Touch Analysis
     model: Looker_Demo_thelook_adwords
     explore: events
-    type: sankey2
+    type: marketplace_viz_sankey::sankey-marketplace
     fields: [user_session_fact.site_acquisition_source, sessions.traffic_source, session_purchase_facts.revenue]
     filters:
       user_session_fact.site_acquisition_source: "-NULL"
